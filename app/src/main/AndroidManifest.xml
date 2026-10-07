@@ -3,6 +3,7 @@
     <uses-feature android:name="android.hardware.type.watch" android:required="true" />
     <uses-feature android:name="android.hardware.audio.output" android:required="false" />
     <application
+        <meta-data android:name="com.google.android.wearable.standalone" android:value="true" />
         android:allowBackup="false"
         android:label="Doma Assist"
         android:theme="@style/AppTheme"
