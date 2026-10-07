@@ -7,7 +7,11 @@ android {
     namespace = "com.doma.assist"
     compileSdk = 35
 
-    kotlinOptions {\n        jvmTarget = "1.8"\n    }\n\n    defaultConfig {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
         applicationId = "com.doma.assist"
         minSdk = 30
         targetSdk = 35
