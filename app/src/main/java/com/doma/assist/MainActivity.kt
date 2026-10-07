@@ -126,8 +126,7 @@ class MainActivity : Activity(), TextToSpeech.OnInitListener {
             bluetooth -> "Áudio: Bluetooth conectado"
             else -> "Áudio: nenhuma saída compatível detectada"
         }
-        status.text = if (prefix == null) current else "$prefix
-$current"
+        status.text = if (prefix == null) current else "$prefix\n$current"
     }
 
     private fun openBluetoothSettings() {
